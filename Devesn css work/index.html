@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+
+    <title>Caffein Overflow Demo</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+    <!--------- navigation bar----->
+    <header class="text-gray-600 body-font"id="nav__bar" >
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 ">
+            <a href="" class="logo__img">
+            <img src="/img/logo.jpg" alt="logo" >
+          </a>
+            <div class="nav_title">
+              <p class="ml-3 text-xl nav_title">Traveller <span>Food bus</span>
+            </p>
+          </div>
+
+
+          <div class="nav__subtitle-main" >
+            </a><nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <a href="#home"class="mr-5 hover:text-gray-900 nav__subtitle">Home</a>
+            <a href="#takeAway" class="mr-5 hover:text-gray-900 nav__subtitle">Take Away</a>
+            <a href="#features" class="mr-5 hover:text-gray-900 nav__subtitle">Features</a>
+            <a href="#speciality" class="mr-5 hover:text-gray-900 nav__subtitle">Speciality</a>
+            <a  href="#orderFood" class="mr-5 hover:text-gray-900 nav__subtitle">Order Food</a>
+            
+          </div>
+          </nav>
+          <div class="contact__button">
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0 ">Contact Us
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+        </div>
+      </header>
+
+
+
+      <!-----------------------hero section ------>
+      <section class="text-gray-600 body-font" id="home">
+        <div class="hero__section">
+        <div class="container mx-auto flex flex-col px-5 py-24 justify-center items-center">
+          <div class="flex w-full justify-center items-end">
+            <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
+              <label for="hero-field" class="leading-7 text-sm text-gray-600">Place Your Order</label>
+              <input type="text" id="hero-field" name="hero-field" class="w-full bg-gray-100 bg-opacity-50 rounded focus:ring-2 focus:ring-indigo-200 focus:bg-transparent border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            </div>
+            <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Order</button>
+          </div>
+          <p class="text-sm mt-2 text-gray-500 mb-8 w-full"></p>
+          <div class="hero__img">
+          <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero"src="https://imgstaticcontent.lbb.in/lbbnew/wp-content/uploads/sites/2/2018/02/23194934/TooMuchIndian3.jpg">
+         </div>
+          <div class="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
+           <div class="title"> <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Giving your Hunger a new Option</h1></div> 
+           <p class="mb-8 leading-relaxed">We do it all: In-house group dining on our patio, covered beer garden, & dining room. Off-site catering drop-offs and pick-ups are also available. Let us know how we can help you make your next event a memorable one.</p>
+            
+
+            <div class="flex">
+              <button class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-200 focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 512 512">
+                  <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
+                </svg>
+                <span class="ml-4 flex items-start flex-col leading-none">
+                  <span class="text-xs text-gray-600 mb-1">GET IT ON</span>
+                  <span class="title-font font-medium">Google Play</span>
+                </span>
+              </button>
+              <button class="bg-gray-100 inline-flex py-3 px-5 rounded-lg items-center ml-4 hover:bg-gray-200 focus:outline-none">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 305 305">
+                  <path d="M40.74 112.12c-25.79 44.74-9.4 112.65 19.12 153.82C74.09 286.52 88.5 305 108.24 305c.37 0 .74 0 1.13-.02 9.27-.37 15.97-3.23 22.45-5.99 7.27-3.1 14.8-6.3 26.6-6.3 11.22 0 18.39 3.1 25.31 6.1 6.83 2.95 13.87 6 24.26 5.81 22.23-.41 35.88-20.35 47.92-37.94a168.18 168.18 0 0021-43l.09-.28a2.5 2.5 0 00-1.33-3.06l-.18-.08c-3.92-1.6-38.26-16.84-38.62-58.36-.34-33.74 25.76-51.6 31-54.84l.24-.15a2.5 2.5 0 00.7-3.51c-18-26.37-45.62-30.34-56.73-30.82a50.04 50.04 0 00-4.95-.24c-13.06 0-25.56 4.93-35.61 8.9-6.94 2.73-12.93 5.09-17.06 5.09-4.64 0-10.67-2.4-17.65-5.16-9.33-3.7-19.9-7.9-31.1-7.9l-.79.01c-26.03.38-50.62 15.27-64.18 38.86z"></path>
+                  <path d="M212.1 0c-15.76.64-34.67 10.35-45.97 23.58-9.6 11.13-19 29.68-16.52 48.38a2.5 2.5 0 002.29 2.17c1.06.08 2.15.12 3.23.12 15.41 0 32.04-8.52 43.4-22.25 11.94-14.5 17.99-33.1 16.16-49.77A2.52 2.52 0 00212.1 0z"></path>
+                </svg>
+                <span class="ml-4 flex items-start flex-col leading-none">
+                  <span class="text-xs text-gray-600 mb-1">Download on the</span>
+                  <span class="title-font font-medium">App Store</span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!--content section-->
+      <section  class="text-gray-600 body-font" id="takeAway" >
+        <div class="content__edit">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap w-full mb-20">
+            <div class="lg:w-1/2 w-full mb-6 lg:mb-0">
+              <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900" >take away </h1>
+              <div class="h-1 w-20 bg-indigo-500 rounded"></div>
+           <div class="take-away-text"> <p class="lg:w-1/2 w-full leading-relaxed text-gray-500"><h1>Popular Dishes</h1>
+                Red Pepper Paneer, Kung Pao Vegetables, Reshmi Chicken Tikka, Drunken Chicken, Butter Chicken Bao, Paprika Paneer
+                
+                <h2>People Say This Place Is Known For</h2>
+                Kid Friendly, Bollywood Nights, Cover Charges, Live Entertainment, Live Singing, Nightlife</p>
+              </div>
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://media.istockphoto.com/photos/misal-a-maharashtrian-dish-picture-id1062088258?k=20&m=1062088258&s=612x612&w=0&h=nNd-LGfT6BDmxCHoJhqNzWkF8eSYhLkNMU6ksgGGduU=" alt="content">
+                
+                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">mamledar misal</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">misal pav</h2>
+                <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://images.indianexpress.com/2021/04/indian-food-1200.jpg" alt="content">
+                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">home made maharastrian veg thali</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">veg thali</h2>
+                <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPFj6uwUapMnw-Vk2eV74KoZX0Ijp_Y9rmug&usqp=CAU" alt="content">
+                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">variety of dosa</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">south indian </h2>
+                <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+              </div>
+            </div>
+            <div class="xl:w-1/4 md:w-1/2 p-4">
+              <div class="bg-gray-100 p-6 rounded-lg">
+                <img class="h-40 rounded w-full object-cover object-center mb-6" src="/img/1.jpg" alt="content">
+                <h3 class="tracking-widest text-indigo-500 text-xs font-medium title-font">cravings/snacks</h3>
+                <h2 class="text-lg text-gray-900 font-medium title-font mb-4">chinese/continental</h2>
+                <p class="leading-relaxed text-base">Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!--feature section-->
+      <section id="features" class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="text-center mb-20">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">Our Features</h1>
+            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s">Skilled and friendly staff members are one of the biggest signs of a great restaurant. They set the tone for your whole establishment, so be sure you are picky when you hire. Look for friendliness, the ability to be quick on their feet, and the ability to relate to customers in all staff members.</p>
+            <div class="flex mt-6 justify-center">
+              <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
+            </div>
+          </div>
+          <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+            <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+              <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                </svg>
+              </div>
+              <div class="flex-grow">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Price Range</h2>
+                <p class="leading-relaxed text-base">It's good to have a wide range of prices.  However, within the range that's appropriate for your dining establishment, there should be a reasonable range in price. plate size can help you create a wider range of prices.</p>
+                <a class="mt-3 text-indigo-500 inline-flex items-center">Read More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+              <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                  <circle cx="6" cy="6" r="3"></circle>
+                  <circle cx="6" cy="18" r="3"></circle>
+                  <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                </svg>
+              </div>
+              <div class="flex-grow">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Cleanliness</h2>
+                <p class="leading-relaxed text-base">The menu itself should be presentable and clean at all times. It's very unappetizing to look at a menu that has smudges, smears, or dirty spots. Try to clean your menus after every customer. This also aids in overall sanitation of your restaurant.</p>
+
+                <a class="mt-3 text-indigo-500 inline-flex items-center">Read More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
+              <div class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10" viewBox="0 0 24 24">
+                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <div class="flex-grow">
+                <h2 class="text-gray-900 text-lg title-font font-medium mb-3">Clarity</h2>
+                <p class="leading-relaxed text-base">Perhaps one of the most important aspects of menu design is clarity. their experience starts to diminish rapidly. Nobody wants to have to pull out their reading glasses or squint under mood lighting to read your menu. Make sure it's professional, but legible.</p>
+                <a class="mt-3 text-indigo-500 inline-flex items-center">Read More
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <button class="flex mx-auto mt-16 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">About Travellers Food Bus</button>
+        </div>
+      </section>
+
+
+
+      <!--pricing section-->
+      <section   class="text-gray-600 body-font" id="speciality">
+        <div class="pricing__food">
+          <div class="pricing__header">
+        <h1 >Our Speciality</h1>
+      </div>
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/punjabi.jpg">
+              </a>
+              <div class="mt-4">
+               <div class="food__heading"></div> <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">PUNJABI FOOD</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Punjabi Thali,dal makhani and lassi</h2>
+                <p class="mt-1">299₹</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/rajastani.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">RAJASTHANI FOOD</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Rajasthani Thali, Bikaneri bhujia,pyaaj kachori.</h2>
+                <p class="mt-1">350₹</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/delhi.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">DELHI FOOD</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Parathas, Chole-Kulche,Golgappe</h2>
+                <p class="mt-1">150₹</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/mumbai.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">MUMBAI FOOD</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Vada-pav,panipuri, bhelpuri, sandwiches</h2>
+                <p class="mt-1">120₹</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/chennai.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CHENNAI FOOD</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Kalaan or mushroom. Atho. Masala puri, made with Puffed rice</h2>
+                <p class="mt-1">269₹</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/meghalay.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">MEGHALAYA FOOD</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Jadoh, Ki Kpu, tung rymbai, and pickled bamboo shoots</h2>
+                <p class="mt-1">300₹</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/goa.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">GOA</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Pomfret, Shark, Tuna and Mackerel.</h2>
+                <p class="mt-1">349₹</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="img/assam.jpg">
+              </a>
+              <div class="mt-4">
+                <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">ASSAM</h3>
+                <h2 class="text-gray-900 title-font text-lg font-medium">Masor Tenga,Duck Meat Curry </h2>
+                <p class="mt-1">289₹</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!--footer section-->
+      <footer id="orderFood" class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
+            <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">MUMBAI DISHES</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Panipuri</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Bhelpuri </a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Dahipuri</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Sandwiches</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">PUNJABI DISHES</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Chhole</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Paneer</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Dal makhani</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Lassi</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">RAJASTHANI DISHES</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800"> Bikaneri bhujia</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Mirchi bada </a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Dal Baati</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800"> Malpauas </a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">KOLKATA DISHES</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Macher Jhol</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Kolkata Biryani</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Kosha Mangsho</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Chelo Kebab </a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">GOA DISHES</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Pork vindaloo</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Crab xec xec.</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Prawn balchão</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Goan red rice</a>
+                </li>
+              </nav>
+            </div>
+            <div class="lg:w-1/6 md:w-1/2 w-full px-4">
+              <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">MEGHALAY DISHES</h2>
+              <nav class="list-none mb-10">
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Jadoh, Ki Kpu</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Tung rymbai</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800"> Pickled bamboo shoots</a>
+                </li>
+                <li>
+                  <a class="text-gray-600 hover:text-gray-800">Garos</a>
+                </li>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="border-t border-gray-200">
+          <div class="container px-5 py-8 flex flex-wrap mx-auto items-center">
+            <div class="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start">
+              <div class="relative sm:w-64 w-40 sm:mr-4 mr-2">
+                <label for="footer-field" class="leading-7 text-sm text-gray-600">Order Your Food</label>
+                <input type="text" id="footer-field" name="footer-field" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:bg-transparent focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              </div>
+              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Payment</button>
+              <p class="text-gray-500 text-sm md:ml-6 md:mt-0 mt-2 sm:text-left text-center">40% Discount on your first order.
+                <br class="lg:block hidden">Home Delivery Service Avaliable!!
+              </p>
+            </div>
+            <span class="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
+              <a href="https://www.facebook.com/profile.php?id=100069750371073" target="blank" class="text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>Facebook
+                
+              </a>
+              <a  href="https://mobile.twitter.com/thunderdenniss" target="blank" class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>Twitter
+              </a>
+              <a href="https://www.instagram.com/caffeineoverflow_/" target="blank" class="ml-3 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                </svg>Instagram
+                
+              </a>
+              <a href="https://www.linkedin.com/in/deven-satam-133992155/" target="blank" class="ml-3 text-gray-500">
+                <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>Linkedin
+              </a>
+            </span>
+          </div>
+        </div>
+       
+        <div class="bg-gray-100">
+          <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+            <p class="text-gray-500 text-sm text-center sm:text-left">© 2021  All the Right are Reserved to Webruster & Caffinoverflow —
+              <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" target="_blank" rel="noopener noreferrer">@caffeinOverflow & @webruster</a>
+            </p>
+            <span class="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm">WEB DEVELOPER & AD DESIGNER </span>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
+
+
+
+
